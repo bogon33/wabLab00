@@ -8,7 +8,7 @@ body {
 
 }
 
-heading {
+h5 {
 	font-size : 3.0em;
 	color : #9197FF;
 }
@@ -18,19 +18,12 @@ h1{
 }
 
 b{
-	color : #3BE691;
-	
+	color : #3BE691;	
 }
 
-fl{
-	font-weight : bold;
+p:first-letter{
 	font-size : 150%;
-
-}
-
-bb{
 	font-weight : bold;
-
 }
 
 
@@ -49,7 +42,7 @@ p > img {
 	outline: #797979 dotted 5px;
 }
 
-tr:nth-child(2){
+tr:nth-child(2) {
 	background-color:blue;
 	
 a {
