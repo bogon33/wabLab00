@@ -2,22 +2,26 @@ body {
 	margin-left : 15%;
 	margin-right : 15%;
 	background-image : url(http://selab.hanyang.ac.kr/courses/cse326/2015/problems/images/3/blueTextureBG.jpg); 
+	border: 10px solid white;
+	
 }
 
 article{
 	 border: 10px solid white;
 	 background-color : white;
+	 
 }
 
-.header{
+header{
 	
 	 text-align : center;
 	 background-color : #8E8E8E;
 	 color : white;
 	 overflow : hidden;
+	
 }
 
-.section{
+section{
 	 border: 4px solid #1D2475;
 	 background-color : #CCCCCC;
 	 padding : 5px;
@@ -27,39 +31,26 @@ article{
 	 
 }
 
-.box3{
-	 text-align : right;
-	 border-bottom: 2px dashed blue;
-
-	 
-}
-
-p > img {
-	float: right;
-	
-}
-
-
-.smaller{
-	text-align : left;
-	font-size : 14pt;
-	color : #B7B7B7;
-	background-color : #FFFF00;
-}
-
-#aside{
+aside{
 	float :left;
 	border: 4px solid #1D2475;
 	background-color : #3366CC;
 	overflow : hidden;
 	border-radius : 15px;
-	
 	margin-right : 10px;
-	margin-bottom : 1900px;
-	width : 150px;
+	margin-top : 20px;
+	margin-left : 0px;
+	margin-bottom : 2100px;
+	width : 10%; 
 	color : #CCCCCC;
-	
-	
+}
+
+footer{
+	 background-color : white;
+}
+
+p > img {
+	float: right;	
 }
 
 a {
@@ -67,19 +58,35 @@ a {
 	text-decoration: none;
 }
 
-
-#mon:hover{
-	background-color : #FFFF00;
-
+header li{
+	text-align : left;
+	font-size : 14pt;
+	color : #B7B7B7;	
 }
 
-#edu:hover{
-	background-color : #FFFF00;
+section p:hover,ol:hover, section h2:hover,dl:hover, section ul:hover,table:hover,header ul:hover{
+		background-color : #FFFF00;
+}
 
+section h2 {
+    	text-align : right;
+	    border-bottom: 2px dashed blue;
+}
+
+#box3{
+	 text-align : right;
+	 border-bottom: 2px dashed blue;
+}
+
+#smaller{
+	text-align : left;
+	font-size : 14pt;
+	color : #B7B7B7;
+	background-color : #FFFF00;
+}
+
+#edu:hover , fmo:hover{
+	background-color : #FFFF00;
 }
 
 
-#fmo:hover{
-	background-color : #FFFF00;
-
-}
